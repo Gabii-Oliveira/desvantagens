@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family:'love' ;
+    src: url('love.ttf') format('truetype');
+}
+
+body{
+    background-color:#f5f4ef;
+}
+
+header{
+    background-color:#7055aa;
+    text-indent: 10px;
+    margin-bottom: 30px;
+}
+
+nav{
+    justify-content: space-between;
+}
+
+h1{
+    color:aliceblue;
+    font-family:'love', 'Times New Roman', Times, serif;
+    font-size: 40px;
+    text-indent: 20px;
+}
+
+nav, ul{
+    display: flex;
+    flex-direction: row;
+}
+
+ul{
+    align-items: center;
+}
+
+li{
+    margin-right: 10px;
+    display: inline;
+    list-style: none;
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 19px;
+}
+
+a:hover{
+    color:aliceblue;
+}
+
+p{
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-indent: 50px;
+    line-height:35px;
+}
+
+h3{
+    color: rgb(255, 17, 0);
+    font-size: 25px;
+    font-family:'love', 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-indent: 10px;
+    margin-bottom: 30px;
+    line-height:35px;
+}
+
+#p2{
+    text-indent: 15px;
+}
